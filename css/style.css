@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: #cacaca
+}
+
+.link-back {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.link-back:hover {
+    cursor: pointer;
+    color: #E8E8E8;
+}
+
+.container-main, .container-home {
+    background-color: #5c197d;
+}
+
+.button {
+    background-color: #5c197d;
+    border-radius: 100px;
+    border: none;
+    padding: 30px 40px;
+    cursor: pointer;
+    transform: scale(0.5);
+    transition: all ease-in-out .3s;
+}
+
+.button:hover {
+    transform: scale(0.4);
+}
+
+.a-link, .link-back {
+    text-decoration: none;
+    color: #CACACA;
+}
+
+.container, .container-home, .head-home {
+    text-align: center;
+}
+
+.head-home {
+    color: #5c197d;
+    padding: 300px;
+}
+
+.head-title {
+    padding: 20px 0 0;
+    font-size: 2rem;
+}
+
+.player {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.5rem;
+}
+
+.versus {
+    font-size: 4rem;
+}
+
+.image-holder {
+    border: 2px solid #858585;
+    margin: 20px;
+    width: 80%;
+}
+
+.btn {
+    border: none;
+    background-color: #5c197d;
+    width: 13%;
+    margin: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.img-style {
+    border: 2px solid #858585;
+    width: 80%;
+}
+
+.choice {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-text {
+    color: #cacaca;
+    font-size: 2rem;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.comp-pressed {
+    box-shadow: 0 3px 4px 0 #FF1B41;
+    opacity: 0.5;
+}
+
+.play {
+    margin: 20px 0 0;
+    font-size: 3rem;
+}
+
+.score {
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: 200;
+    font-weight: 200;
+}
+
+.num-score {
+    margin: 20px 0 0;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.footer {
+    text-align: center;
+    display: block;
+    background-color: #858585;
+    color: #DBEDF3;
+    padding: 20px 0;
+    margin: 20px 0 0;
+}
+
+
+
+/* .paper, .rock, .scissor {
+    height: 180px;
+    
+}
+
+.paper {
+    background-image: url("../img/paper2.png");
+    background-size: cover;
+}
+
+.rock {
+    background-image: url("../img/rock1.png");
+    background-size: cover;
+}
+
+.scissor {
+    background-image: url("../img/scissor3.png");
+    background-size: cover;
+} */

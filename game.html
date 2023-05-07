@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Rock | Paper | Scissor</title>
+    </head>
+
+
+    <body>
+        <div class="container-main">
+
+            <div class="container">
+                <span class="back">
+                    <a href="index.html" class="link-back">Home</a>
+                </span>
+                <h1 class="head-title">👑 Rock | Paper | Scissor 👑</h1>
+
+                <h2 class="play">Play Game</h2>
+                <h3 class="score"><span>Score</span></h3>
+                <h3 class="num-score"><span class="user-score">0</span>:<span class="computer-score">0</span></h3>
+
+                <div class="player one">
+                    <p class="player1">User</p>
+                    <img class="image-holder ones" id="uno" src="./img/rock.png" alt="">
+                </div>
+
+                <div class="player">
+                    <p class="versus">vs</p>
+                </div>
+
+                <div class="player comp">
+                    <p class="computer">Computer</p>
+                    <img class="image-holder comps" id="dos" src="./img/rock.png" alt="">
+                </div>
+                <h1 class="text-choice">Click your Choice below.</h1>
+
+            </div> <!-- end container -->
+
+            
+            <div class="choice">
+
+                <button class="btn">
+                    <img class="img-style" id="rock" src="./img/rock.png" alt="paper">
+                    <p class="btn-text">Rock</p>
+                </button>
+                <button class="btn">
+                    <img class="img-style" id="paper" src="./img/paper.png" alt="rock">
+                    <p class="btn-text">Paper</p>
+                </button>
+                <button class="btn">
+                    <img class="img-style" id="scissor" src="./img/scissor.png" alt="scissor">
+                    <p class="btn-text">Scissor</p>
+                </button>
+
+            </div> <!-- end choice -->
+
+            <div class="footer">
+                <p class="foot">&bull; Made with ❤️ by Homer &bull;</p>
+            </div>
+
+        </div> <!-- end container-main -->
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+    
+</html>
